@@ -4,17 +4,6 @@ Image input
 - Resize to 224x224
 - Transformations
 
-from sklearn.cluster import KMeans
-mdl=KMeans(n_clusters=4)
-mdl.fit()
-
-Class called cluster with method KMeans
-fit is a call inside same class
-
-In pytorch, modules to preprocess. by io, we use io library, else user defined.
-
-
-Expect file names of class
 
 -root
 -|-0
